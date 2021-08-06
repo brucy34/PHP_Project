@@ -1,0 +1,77 @@
+body
+{
+    background-color: #bebdbd7e;
+}
+#header
+{
+    margin-top: -35px;
+}
+
+#Titre a
+{
+    size: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #FBF8FF;
+    text-decoration: none;
+}
+#Titre a:hover
+{
+  font-weight: bold;
+  border-bottom: 5px solid rgb(7, 211, 247);
+  color: #000000ad;
+}
+.nav-item
+{
+    margin-right: 50px;
+    border-left:5px solid rgb(7, 211, 247);
+    padding-left: 3px;
+    color: #000000;
+    text-decoration: none;
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+#header .univ-name 
+{
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  border-left:10px solid rgb(7, 211, 247);
+  border-radius: 100px;
+}
+#header
+{
+    background-color: #565857;
+    border-radius: 5px;
+}
+#nav a:hover
+{
+  color: rgb(7, 211, 247);
+  font-weight: bold;
+  border-left:5px solid #fefffe;
+}
+.box-grid
+{
+    border-top: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    height: 1080px;
+    background-color: #565857;
+    margin-top: -16px;
+}
+.left-box
+{
+    float: left;
+    width: 200px;
+}
+
+.right-box
+{
+    float: left;
+}

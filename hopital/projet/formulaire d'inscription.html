@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulaire d'admission</title>
+<link rel="stylesheet" href="formulaire.css"="text/css">
+</head>
+
+<body>
+	<h1>Formulaire d'inscription</h1>
+	<form method="post">
+		<fieldset>
+			<legend><h3>Coordonnées</h3></legend>
+			<p><label>Nom </label><input type="text" name="nom" /></p>
+			<p><label>Prénom </label><input type="text" name="prenom" /></p>
+			<p>Sexe    <label>Feminin </label><input type="radio"name="sexe"/><label>Masculin </label><input type="radio" name="sexe"/></p>
+			<p><label>Date de naissance </label><input type="date"name="naissance"/></p>
+			<p><label>Lieu de naissance </label><input type="text"name="lieu nais"/></p>
+			<p><label>Telephone </label><input type="tel" name"tel"/></p>
+			<P><label>Email </label><input type="email" name="mail"/></P>
+			<p><label>Adresse </label><input type="text"name="adress/>"</p>
+		</fieldset>
+		<fieldset>
+			<legend><h3>Programmes</h3></legend>
+			<p>
+				<label>Cycle d'études</label>
+				<select name="cycle">
+<option value="p">1er cycle</option>
+<option value="d">2eme cycle</option>
+<option value="3">3eme cycle</option>
+				</select>
+			</p>
+			<p>
+				<label>Votre programme d'etudes</label>
+				<select name="Programme">
+<option value="agronomie">Agronomie</option>
+<option value="droit">Droit</option>
+<option value="informatique">Informatique</option>
+<option value="génie">Génie</option>
+<option value="Lettre">Lettres et langues</option>
+<option value="medecine">Medecine</option>
+<option value="maths">Mathématique</option>
+<option value="administration">Sciences de l'administration</option>
+<option value="education">Sciences de l'education</option>
+<option value="sc humaines">Sciences humaines et ciences sociales</option>
+<option value="infirmiere">Sciences infirmières</option>
+<option value="physiques">Sciences physiques</option>
+				</select>
+			</p>
+			<p>
+				<label>Session</label>
+				<select name="session">
+<option value="automne 21">Automne 2021</option>
+<option value="hiver">Hiver 2022</option>
+<option value="automne 22">Automne 2022</option>
+					
+				</select>
+			</p>
+			
+		</fieldset>
+		<fieldset>
+			<legend><h3>Documents à soumettre</h3></legend>
+			<p> <label>Photo d'identité (PNG/JPEG) </label><input type="image" name="photo"/></p>
+			<p> <label>Certificat de naissance/ Extrait d'archives </label><input type="file" name="act nais"/></p>
+			<p><label>Relevé de notes </label><input type="file" name="note"/></p>
+			<p><label>Diplome de fin d'études (BacII) </label><input type="file" name="diplome"/></p>
+		</fieldset>
+		
+			
+			
+		
+		
+	</form>
+</body>
+</html>

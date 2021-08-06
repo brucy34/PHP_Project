@@ -1,0 +1,59 @@
+h1
+{
+	color:green;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size:25px;
+	font-display: fallback;
+}
+div img
+{ 
+	border-radius: 50%;
+	float:right;
+}
+.second #al
+{
+	display:block;
+}
+.bourse div .ali img
+{
+	display:block;
+}
+p
+{
+	text-align: justify;
+}
+body
+{
+	background-image: url("BACK.png");
+	background-repeat: repeat-x;
+	background-color: #C8B6B6;
+}
+nav ul li
+{
+	list-style-type: none;
+	display:inline;
+	font-size: 30px;
+	margin-right:60px;
+}
+nav
+{
+	text-align:center;
+}
+#titre
+{
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:cornsilk;
+	font-size:70px;
+	margin-top: 15px;
+}
+h1
+{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size:50px;
+}
+#head
+{
+	float: right;
+	height:100px;
+	width:100px;
+}

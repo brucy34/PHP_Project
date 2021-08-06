@@ -1,0 +1,119 @@
+body
+{
+	background-image:url(back3.png);
+	background-repeat: no-repeat;
+	background-color: #c2a1c2;
+	opacity:0.8;
+}
+
+header div ul li
+{
+	list-style-type: none;
+	display:inline;
+}
+header div img
+{
+	display:inline;
+}
+nav
+{
+	text-align: center;
+	background-color:white;
+	weigth:100%;
+	margin-down: 150px;
+	color:#c2a1c2;
+	border-radius: 10%;
+}
+nav ul li 
+{
+	list-style-type: none;
+	display:inline;
+	font-size:30px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	padding-right:50px;
+	
+}
+#rezo
+{
+	border-radius: 5000%;
+	border-top-left-radius: 100%;
+	height:30px;
+	width: 30px;
+}
+.search
+{
+	text-align:right;
+	font-size:15px;
+	margin-down:250px;
+	maargin-top:250px;
+}
+p
+{
+	text-align: center;
+}
+#slog
+{
+	margin-top:250px;
+	font-size:75px;
+	color:black;
+	text-align: center;
+	text-decoration: none;
+}
+.logo
+{
+	text-align: right;
+	padding-left: 1000px;
+	margin-down:200px;
+}
+#log
+{
+	width:50px;
+	height:50px;
+	margin-down:200px;
+	opacity:1.0;
+	brightness:0.5;
+}
+section div 
+{
+	display:inline-block;
+}
+p
+{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:black;
+	text-align: justify;
+}
+#part
+{
+	width:30%;
+	display:inline-block;
+	margin-right:30px;
+	text-align: center;
+}
+.part2
+{
+	width:30%;
+}
+section div 
+{
+	display:inline-block;
+}
+.bat
+{
+	text-align: center;
+}
+#bat
+{
+	border-radius: 100%;
+	border:black,25px,thin;
+}
+#meg1
+{
+	width:300px;
+	height:168px;
+	border-radius: 100%;
+}
+#meg2
+{
+	border-radius: 100%;
+}

@@ -1,0 +1,60 @@
+#Titre a
+{
+  padding-left: 3px;
+  color: white;
+  text-decoration: none;
+  width: 150px;
+  margin: 360px;
+}
+/* au passage du curseur la couleur du titre change et le boder bottom, trait en dessus du texte apparait */
+#Titre a:hover
+{
+  font-weight: bold;
+  border-bottom: 5px solid greenyellow;
+  color: #0b0c0b;
+}
+/* style de css applique au element de la navigation */
+.nav-item
+{
+  padding-left: 3px;
+  color: #FBF8FF;
+  text-decoration: none;
+  
+}
+
+/* header */
+#header 
+{
+  padding: 26px 0;
+  background: rgba(65, 63, 63, 0.514);
+}
+
+#header .univ-name 
+{
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  border-left:10px solid rgb(7, 211, 247);
+  border-radius: 100px;
+  text-align: center;
+}
+
+/* navigation bar */
+#nav ul 
+{
+  list-style: none;
+  display: flex;
+}
+/* creation d'espasce entre les nav item en utilisant padding */
+#nav  ul  li 
+{
+  padding: 30px;
+}
+/* changer la couleur du texte et du border left line dans la navigation au passage de click */
+#nav a:hover
+{
+  color: rgb(7, 211, 247);;
+  font-weight: bold;
+  border-left:5px solid #fefffe;
+}
